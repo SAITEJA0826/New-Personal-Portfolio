@@ -1,6 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital@0;1&family=Satisfy&family=Shantell+Sans&family=Tilt+Neon&family=Ubuntu&family=Varela+Round&family=Zeyada&display=swap');
 
 /* NAVBAR AND BG SECTION*/
+hr{
+    background-color: #eff4fd;
+    margin-top: 20px;
+}
 .logo{
     border-style: solid;
     border-width: 2px;
@@ -12,7 +16,7 @@
     padding-right: 10px;
 }
 .logo-image{
-    height: 30px;
+    height: 50px;
     
 }
 div a{
@@ -20,26 +24,26 @@ div a{
 }
 
 /* BANNER SECTION */
+
 .bg-container{
     background-color: #eff4fd;
     background-size: cover;
-    /* overflow: hidden; */
+    overflow: hidden;
 }
 .dp{
     margin-top: 20px;
     margin-bottom: 15px;
     border-radius: 10px;
-    height: 75vh;
+    height: 68vh; /**/
     justify-content: center;
     transition: 1s;  
 }
 .dp img{
     border-radius: 10px;
-    width: 70vw;;
+    width: 60vw;
 }
 .dp:hover{
-    filter: opacity(5);
-    transform: scale(1.2) rotate(6deg);
+    transform: scale(1.1) rotate(6deg);
 }
 .heading{
     font-size: 40px;
@@ -69,7 +73,6 @@ h1 span{
 .details a{
     background: #212121;
     padding: 10px 15px;
-    text-decoration: none;
     font-weight: bold;
     color: #fff;
     display: inline-block;
@@ -80,7 +83,10 @@ h1 span{
 }
 .details a:hover{
     transform: scale(1.1);
+    text-decoration: none;
+    color: #fff;
 }
+
 /* ABOUT SECTION */
 
 .about-section{
@@ -277,6 +283,7 @@ h1 span{
 }
 
 /* CONTACT SECTION */
+
 .footer-section{
     background-color: #eff4fd;
 }
@@ -405,86 +412,3 @@ form input, form textarea{
     font-size: 16px;
     font-family: roboto;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
